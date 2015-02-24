@@ -1,0 +1,13 @@
+ <h1>My Todo</h1>
+ <%= simple_form_for @new_task,remote:true , html: {id: "task_form"} do |f| %>
+   <%= f.input :title, label: false, placeholder: "Enter a Task" %>
+   <%= f.submit "Add Task" %>
+
+ <% end %>
+
+ <ul id="tasks">
+   <%= render @tasks %>
+   
+ </ul>
+
+

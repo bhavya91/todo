@@ -1,0 +1,15 @@
+/*@import "bootstrap-sprockets";
+ @import "bootstrap";
+@import "tasks";*/
+@import "yeti";
+#logged_in_state{
+  color:white;
+}
+
+#task_title{
+  margin-bottom: 15px;
+  width: 60%;
+  height: 34px;
+  
+  
+  }

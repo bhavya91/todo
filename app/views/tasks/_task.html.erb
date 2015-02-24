@@ -1,0 +1,4 @@
+<li id='task_<%= task.id %>'>
+  <%= task.title %>
+  <%= link_to "delete", task_path(@task), method: :delete, data: { confirm: 'Are you sure?' }, remote: true %> 
+</li>
